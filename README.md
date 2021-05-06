@@ -1,13 +1,30 @@
-# PROJECT NAME
+# GIN-NO-FLOC
 
 **WARNING: these instructions work best on a unix based system**
 
-## Setup
+This is a middleware to disable floc on gin gonic servers. It just sets a single header super simply
 
-setup example text
+## Usage
+
+``` go
+package main
+
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/mandrigin/gin-spa/spa"
+    "github.com/prairir/gin-no-floc/noFloc"
+)
+
+func main() {
+	r := gin.Default()
+    r.Use(noFloc.Middleware())
+	r.Run()
+}
+```
+
+## Photo of headers
+
+![photo of headers](headers.png)
 
 ## Contributing
 You can read all about contributing to this project in `CONTRIBUTING.md`
-
-## Architecture
-You can read about it in `ARCHITECTURE.md`

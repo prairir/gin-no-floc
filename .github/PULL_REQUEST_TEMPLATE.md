@@ -9,6 +9,6 @@
 ### Is there anything reviewers should know?
 
 
-### If needed, did you change documentation(`README.md`, `ARCHITECTURE.md`, etc) to reflect your changes?
+### If needed, did you change documentation(`README.md`, `CONTRIBUTING.md`, etc) to reflect your changes?
 
 - [x] Is it safe to rollback this change if anything goes wrong?

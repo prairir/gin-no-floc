@@ -10,8 +10,8 @@ This is a middleware to disable floc on gin gonic servers. It just sets a single
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/mandrigin/gin-spa/spa"
+    "github.com/gin-gonic/gin"
+    "github.com/mandrigin/gin-spa/spa"
     "github.com/prairir/gin-no-floc/noFloc"
 )
 

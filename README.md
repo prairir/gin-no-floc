@@ -1,7 +1,5 @@
 # GIN-NO-FLOC
 
-**WARNING: these instructions work best on a unix based system**
-
 This is a middleware to disable floc on gin gonic servers. It just sets a single header super simply
 
 ## Usage
@@ -16,9 +14,9 @@ import (
 )
 
 func main() {
-	r := gin.Default()
+    r := gin.Default()
     r.Use(noFloc.Middleware())
-	r.Run()
+    r.Run()
 }
 ```
 
